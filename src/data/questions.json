@@ -1,0 +1,6102 @@
+[
+  {
+    "id": 1784327595659,
+    "text": "The overall mission of the Oracle Corporation is to use the internet and fast processing servers to build its own network. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784327668836,
+    "text": "How do you turn \"data\" into \"information\"?",
+    "image": null,
+    "options": [
+      {
+        "text": "By testing it",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "By storing it on a server",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "By storing it in a database",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "By querying it or accessing it",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784327721414,
+    "text": "Which term describes the physical components of a computer system?",
+    "image": null,
+    "options": [
+      {
+        "text": "Client",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Hardware",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Operating System",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Software",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784327857323,
+    "text": "Most of the well know Internet search engines use databases to store data. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328220436,
+    "text": "Data Modeling is the last step in the database development process. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328289194,
+    "text": "What is the difference between \"information\" and \"data\"?",
+    "image": null,
+    "options": [
+      {
+        "text": "Data turns into useful information. It is stored in a database and accessed by systems and users.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Information is held and understood only by users.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Data is held and understood only by users.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Information and data have no differences - they are two words for the same thing.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328408664,
+    "text": "Every time you shop online, it is likely you will be accessing a database. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328449319,
+    "text": "Information which was gained from data is the same as: (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Raw Materials",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "There is no difference between data and information.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Knowledge",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Intelligence",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328515292,
+    "text": "Once you have learned how to write programs and build systems, you no longer need any input or involvement from any users as you are perfectly capable of delivering the systems that businesses need and want.",
+    "image": null,
+    "options": [
+      {
+        "text": "True. Users delay the delivery of a system by changing their minds and adding new requirements.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "True. Users never know what they want anyway, so building systems is best left to the professionals.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "True. The only requirement for creating a perfect system is a perfect programmer.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False. Business requirements can and will change. For instance new legal requirements may arise.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328543027,
+    "text": "The work of E.F. Codd in the early 1970s led to the development of Relational databases. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328566253,
+    "text": "The market for IT professionals is still increasing and will continue to do so in the future as the world gets ever more dependent on computer systems. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328728126,
+    "text": "In the grid computing model, resources are pooled together for efficiency. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328749120,
+    "text": "The demand for Information Technology professionals in today's market is increasing. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328802981,
+    "text": "Businesses involved in any of the following typically use databases to handle their data: Finance, Logistics, Commerce, Procurement, and Distribution. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784328883549,
+    "text": "Users could directly interact with which of the following software to access essential business applications? (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "Internet Browser software",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Server software",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "GUI software",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Operating System software",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329308496,
+    "text": "Consider your school library. It will have a database with transaction details of the books that are borrowed by students. Is a detail of one student borrowing one book considered Data or Information?",
+    "image": null,
+    "options": [
+      {
+        "text": "Data",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Information",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Both",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Neither",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329349856,
+    "text": "Oracle was one of the first relational database systems available commercially. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329382660,
+    "text": "Consider your school library. It will have a database with transaction details of the books that are borrowed by students. Is the total number of books out on loan in one given month considered Data or Information?",
+    "image": null,
+    "options": [
+      {
+        "text": "Data",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Information",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Both",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Neither",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329441050,
+    "text": "Software cannot operate without Hardware. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329461782,
+    "text": "Which of the following represents the correct sequence of steps in the Database Development Process?",
+    "image": null,
+    "options": [
+      {
+        "text": "Build, Analyze, Design",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Analyze, Build, Design",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Design, Build, Analyze",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Analyze, Design, Build",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329505050,
+    "text": "Which of the following are examples of e-businesses that use database software? (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "Online personal shopping service",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Online personal web page",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Online clothing store",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Online research paper",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Online book store",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329564979,
+    "text": "Changes in computing have affected many of our day-to-day activities. Are all of the following activities examples of this change? Yes or No?\nIn the past you used to use the phone system to call directory assistance to get a phone number. Today you can use your PC to look up a phone number online.\n\nIn the past you used to have to go to the shoe store to buy shoes. Today you can use your PC to order shoes online.\n\nIn the past you had to use your PC to send a person an email. Today you can use your phone to send a text message.",
+    "image": null,
+    "options": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329666697,
+    "text": "SQL became the most commonly used query language in the 1980s. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329714072,
+    "text": "Entities are transformed into Tables during the Database Design process. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329738886,
+    "text": "Which of the following are examples of data becoming information:",
+    "image": null,
+    "options": [
+      {
+        "text": "A. Student age -> average age of all students in class",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "B. Bank deposit amount -> total account balance",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "C. Winning time for a race -> length of race",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "D. Price of a computer -> total sales of all computers for a company",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "E. A, B, and D",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329850564,
+    "text": "A specialized type of software, which controls and manages the hardware in a computer system.",
+    "image": null,
+    "options": [
+      {
+        "text": "Operating System",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Hardware",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Client",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Software",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784329969303,
+    "text": "Databases are used in most countries and by most governments. Life, as we know it, would change drastically if we no longer had access to databases. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1784330080937,
+    "text": "Personal computers (PCs) have been in existence since 1950. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929347501,
+    "text": "What is the purpose of a Unique Identifier?",
+    "image": null,
+    "options": [
+      {
+        "text": "To uniquely determine a table and columns within that table.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "To identify one unique instance of an entity by using one or more attributes and/or relationships.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Create an entity that is unlike any other entity aside from itself.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "To identify a specific row within a table, using one or more columns and/or foreign keys.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929369241,
+    "text": "A well structured ERD will show only some parts of the finished data model. You should never try to model the entire system in one diagram, no matter how small the diagram might be. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929520509,
+    "text": "A/an _________ is defined as \"Something” of significance to the business about which data must be known.",
+    "image": null,
+    "options": [
+      {
+        "text": "Instance",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Relationship",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Entity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929547518,
+    "text": "Which of the following is an example of a volatile attribute?",
+    "image": null,
+    "options": [
+      {
+        "text": "Name",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Age",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Hire Date",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Date of Birth",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929571131,
+    "text": "The word \"Volatile\" means…",
+    "image": null,
+    "options": [
+      {
+        "text": "Limited quantity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Changing constantly; unstable",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Large quantity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Static; unlikely to change",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929589080,
+    "text": "The purpose of an ERD is to document the proposed system and facilitate discussion and understanding of the requirements captured by the developer. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929666418,
+    "text": "Which of the following entities most likely contains valid attributes? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Entity: Car. Attributes: Owner Occupation, Owner Salary, Speed",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Entity: Home. Attributes: Number of Bedrooms, Owner, Address, Date Built",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Entity: Mother. Attributes: Name, Birthdate, Occupation, Start Date",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Entity: Pet. Attributes: Name, Birthdate, Owner",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929686032,
+    "text": "A/an _________ is a piece of information that in some way describes an entity. It is a property of the entity and it quantifies, qualifies, classifies, or specifies the entity.",
+    "image": null,
+    "options": [
+      {
+        "text": "Process",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "ERD",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Attribute",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Table",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929701862,
+    "text": "A/an _________'s value can be a number, a character string, a date, an image, a sound.",
+    "image": null,
+    "options": [
+      {
+        "text": "Attribute",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "ERD",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Table",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Entity",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929723760,
+    "text": "Data models are drawn to show users the actual Data that their new system will contain; only Data listed on the Diagram can be entered into the Database. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929737000,
+    "text": "Documenting Business Requirements helps developers control the scope of the system and prevents users from claiming that the new system does not meet their business requirements. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929775326,
+    "text": "An ERD is an example of a Logical Model. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929784049,
+    "text": "An Entity Relationship model is independent of the hardware or software used for implementation. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929822290,
+    "text": "Which of the following statements about attributes are true? (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "They must be single valued.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "They are often adjectives.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "They describe, qualify, quantify, classify, or specify an entity.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "They have a data type, such as number or character string.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785929832655,
+    "text": "An ERD is an example of a Physical Model. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785930512854,
+    "text": "Unique Identifiers…",
+    "image": null,
+    "options": [
+      {
+        "text": "Distinguish nothing",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Distinguish all entities in a database",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Distinguish one instance of an entity from all other instances of that entity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Distinguish one entity from another",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785930601604,
+    "text": "Attributes can only have one value at any point for each instance in the entity. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785930703918,
+    "text": "Which of the following are examples of ENTITY: Instance? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "TRANSPORTATION METHOD: Car",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "ANIMAL: Dog",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "BODY PART: Larry Ellison",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "MEAT PRODUCT: Lettuce",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785930886299,
+    "text": "All of the following would be instances of the entity ANIMAL SPECIES, except which one?",
+    "image": null,
+    "options": [
+      {
+        "text": "Elephant",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Leaf",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Bird",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Dog",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785930935904,
+    "text": "In the following statements, find two good examples of ENTITY: Instance. (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "TRAIN: runs",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "BOOK: Biography of Mahatma Gandhi",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "VEGETABLE: grows",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "DAIRY PRODUCT: milk",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785930979822,
+    "text": "Which of the following statements about ERD's is false?",
+    "image": null,
+    "options": [
+      {
+        "text": "Locate information in a predictable, logical place.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Capture all required information.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Model all information that is derivable from other information already modeled.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Ensure that information appears only once.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785931029622,
+    "text": "Which of the following statements are true about ERD's? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "A piece of information can be shown multiple times on an ERD.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "A piece of information should only be found in one place on an ERD.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "You should not model derivable data.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "All data must be represented on the ERD, including derived summaries and the result of calculations.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785931065210,
+    "text": "Entity Relationship modeling is dependent on the hardware or software used for implementation, so you will need to change your ERD if you decide to change Hardware Vendor. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785931090432,
+    "text": "The Physical Model is derived from the Conceptual Model. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785931552477,
+    "text": "Data modeling is performed for the following reasons: (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "We do not need datamodels; we can just start coding right away.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "It helps discussions and reviews.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "The ERD becomes a blueprint for designing the actual system.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "We draw an ERD solely to please the users; once completed, the ERD is never referred to again as it serves no purpose in the real world.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785931682085,
+    "text": "Which of the following attributes is suitable to be a Unique Identifier?",
+    "image": null,
+    "options": [
+      {
+        "text": "First name",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Social Security Number",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Last name",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Address",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785931753790,
+    "text": "Many reasons exist for creating a conceptual model. Choose three appropriate reasons from the options below. (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "They capture the implementation details of the physical model.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "They accurately describe what a physical model will contain.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "They model functional and informational needs.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "They capture current and future needs.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "They model the information flow of data.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785932540241,
+    "text": "Entities are usually verbs. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785932599175,
+    "text": "All of the following could be attributes of an ENTITY called PERSON, except which one?",
+    "image": null,
+    "options": [
+      {
+        "text": "Weight",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Natacha Hansen",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Gender",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Haircolor",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785932825402,
+    "text": "A Conceptual Model is not concerned with how the Physical Model will be implemented. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785933095286,
+    "text": "Which of the following can be found in an ERD? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Tables.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Instances.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Entities.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Attributes.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785933114049,
+    "text": "Which of the following statements about Entities are true? (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "They are usually a noun.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "“Something” of significance to the business about which data must be known.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "A name for a set of similar \"things\"",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "They never have Instances",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785933882737,
+    "text": "What are the three properties that every relationship should have?",
+    "image": null,
+    "options": [
+      {
+        "text": "Name, optionality, cardinality",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "A UID bar, a diamond, an arc",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Transferability, degree, name",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Name, optionality, arcs",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785933909470,
+    "text": "Which of the following are true about Cardinality? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Cardinality specifies a counting number (like 1, 2, 3, 4 etc.) in a relationship.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Cardinality tells \"how many\".",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Cardinality specifies whether something is required or not.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Cardinality specifies only singularity or plurality, but not a specific plural number.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785933925300,
+    "text": "Relationships always exist between",
+    "image": null,
+    "options": [
+      {
+        "text": "3 or more attributes",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "3 or more entities",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "2 entities (or one entity and itself)",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "2 attributes",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785933952913,
+    "text": "Which of the following are used to show a relationship on an ERD? (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "Dashed line.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "# symbol.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Solid line.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Crow's foot.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785933992783,
+    "text": "ERDish describes a relationship in words. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934002754,
+    "text": "Relationship names are not shown on an ERD. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934015645,
+    "text": "Matrix Diagrams show Optionality and Cardinality of the ERDs they document. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934048588,
+    "text": "Which of the following are used to show Cardinality on an ERD? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Single toe.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Dashed line.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Crow's foot.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Solid line.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934062108,
+    "text": "One Relationship can be mandatory in one direction and optional in the other direction. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934068584,
+    "text": "To identify an attribute as part of a unique identifier on an ER diagram, the # symbol goes in front of it. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934085171,
+    "text": "When reading the relationships in an ERD, you are said to be speaking:",
+    "image": null,
+    "options": [
+      {
+        "text": "Gibberish",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "ERDish",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Entity-ish",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Relationship-ish",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934096611,
+    "text": "Entity names are always singular. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934105766,
+    "text": "Relationship Cardinality is important. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934123541,
+    "text": "Matrix Diagrams are developed BEFORE the ERD. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934135933,
+    "text": "Matrix Diagrams are used to verify that all relationships have been identified for an ERD. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934163002,
+    "text": "Entity boxes are drawn as",
+    "image": null,
+    "options": [
+      {
+        "text": "Hard Boxes",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Bold Circles",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Soft Boxes",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Normal Circles",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934188734,
+    "text": "Which of the following are true about Relationship Optionality? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Optionality specifies only singularity or plurality, but not a specific plural number.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Optionality specifies a counting number (like 1, 2, 3, 4 etc.) in a relationship.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Optionality answers \"may or must\".",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Optionality specifies whether something is required or not.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934203902,
+    "text": "Relationships can be either mandatory or optional. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934234152,
+    "text": "Which symbol is used to show that a particular attribute is mandatory?",
+    "image": null,
+    "options": [
+      {
+        "text": "#",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "o",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "*",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "&",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934248547,
+    "text": "The many end of a Relationship is called:",
+    "image": null,
+    "options": [
+      {
+        "text": "Crows Foot",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Gulls Foot",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Crows Ear",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Pigs Ear",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934289313,
+    "text": "In a business that sells pet food, choose the best relationship name between FOOD TYPE and ANIMAL (e.g. dog, horse, or cat). (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Each ANIMAL must be the seller of one or more FOOD TYPES.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Each FOOD TYPE may be manufactured by one or more ANIMALs.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Each FOOD TYPE must be suitable for one or more ANIMALs.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Each FOOD TYPE may be given to one or more ANIMALs.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785934302812,
+    "text": "When reading a relationship between 2 entities, the relationship is read both from left to right and right to left. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936106883,
+    "text": "All instances of a subtype must be an instance of the supertype. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936117422,
+    "text": "You can only create relationships to a Supertype, not to a Subtype. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936139447,
+    "text": "How would you model a business rule that states that on a student’s birthday, he does not have to attend his classes?",
+    "image": null,
+    "options": [
+      {
+        "text": "You cannot model this. You need to document it",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Use a supertype",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Make the attribute Birthdate mandatory",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Use a subtype",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936210364,
+    "text": "A supertype can only have two subtypes and no more. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936242848,
+    "text": "Which of the following is an example of a structural business rule?",
+    "image": null,
+    "options": [
+      {
+        "text": "All products will have a selling price no less than 30 % greater than wholesale.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "All overdue payments will have an added 10 % late fee.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Buildings to be purchased by the business must be current with earthquake building code.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "All employees must belong to at least one department.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936297901,
+    "text": "A business rule such as \"We only ship goods after customers have completely paid any outstanding balances on their account\" is best enforced by:",
+    "image": null,
+    "options": [
+      {
+        "text": "Making the payment attribute null.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Creating additional programming code to verify no goods are shipped until the account has been settled in full.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "We need to trust our customers, and we know they will pay some day.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Making the payment attribute optional.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936316015,
+    "text": "A business rule such as \"All accounts must be paid in full within 10 days of billing\" is best enforced by:",
+    "image": null,
+    "options": [
+      {
+        "text": "Creating additional programming code to identify and report accounts past due.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Making the payment attribute mandatory.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Creating a message to be printed on every bill that reminds the customer to pay within ten days.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Making the relationship between CUSTOMER and PAYMENT fully mandatory and 1:1 on both sides.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936368171,
+    "text": "All ER diagrams must have one of each of the following: (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Arcs",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Relationships between entities",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "At least one supertype and subtype",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "One or more Entities",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936385285,
+    "text": "How should you handle constraints that cannot be modeled on an ER diagram?",
+    "image": null,
+    "options": [
+      {
+        "text": "All constraints must be modeled and shown on the ER diagram",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Explain them to the users so they can enforce them",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "List them on a separate document to be handled programmatically",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Always let the network architect handle them",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936395000,
+    "text": "A subtype can have a relationship not shared by the supertype. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936407738,
+    "text": "A new system would have a mixture of both Procedural and Structural Business Rules as part of the documentation of that new system. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936557459,
+    "text": "A subtype is shown on an ERD as an entity with a one to many relationship to the supertype. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785936583293,
+    "text": "All instances of a subtype may be an instance of the supertype but does not have to. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785937671922,
+    "text": "A subtype is drawn on an ERD as an entity inside the \"softbox\" of the supertype. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785937869601,
+    "text": "Business rules are important to data modelers because:",
+    "image": null,
+    "options": [
+      {
+        "text": "A. They capture all of the needs, processes, and required functionality of the business.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "B. All Business rules are easily implemented in the ERD diagram.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "C. The data modeler must focus on structural rules, because they are easily represented diagrammatically and eliminate other rules that involve extra procedures or programming.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "D. Both A and C are true.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785937883025,
+    "text": "All instances of the supertype must be an instance of one of the subtypes. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785937903419,
+    "text": "Why is it important to identify and document business rules?",
+    "image": null,
+    "options": [
+      {
+        "text": "It allows you to create a complete data model and then check it for accuracy.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "It allows you to improve the client's business.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "It ensures that the data model will automate all manual processes.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785937918304,
+    "text": "A Supertype can have only one subtype. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785937938297,
+    "text": "Why is it important to identify and document structural rules?",
+    "image": null,
+    "options": [
+      {
+        "text": "Ensures we know what data to store and how that data works together.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Ensures nothing. There are no benefits to be gained from documenting your Structural Business Rules. We need to concentrate on the Procedural Business Rules only.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Ensures we know what processes are in place and how to program them.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "All of the Above.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785937957299,
+    "text": "Can all constraints be modeled on an ER diagram?",
+    "image": null,
+    "options": [
+      {
+        "text": "Yes, all constraints must be modeled and shown on the ER diagram",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "No, but you just explain them to the users so they can enforce them",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "No, and those that cannot be modeled should be listed on a separate document to be handled programmatically",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "No, in which case you should let the database administrator handle them",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785938659055,
+    "text": "Which of the following is true about subtypes?",
+    "image": null,
+    "options": [
+      {
+        "text": "Subtypes must not be mutually exclusive.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "One instance of a supertype may belong to two subtypes.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Subtypes should not be exhaustive.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Subtypes must be mutually exclusive.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940292690,
+    "text": "Non-transferable relationships can only be mandatory, not optional. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940303665,
+    "text": "Which of the following pairs of entities is most likely to be modeled as a 1:1 relationship?",
+    "image": null,
+    "options": [
+      {
+        "text": "PERSON and FINGERPRINT",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "TREE and BRANCH",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "TEACHER and SUBJECT AREA",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "CAR and WHEEL",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940357383,
+    "text": "Intersection Entities often have the relationships participating in the UID, so the relationships are often barred. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940410465,
+    "text": "If an intersection entity is formed that contains no attributes of its own, its uniqueness may be modeled by",
+    "image": null,
+    "options": [
+      {
+        "text": "Creating new attributes.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Barring the relationships to the original entities.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Placing the UID attributes from the original entities into the intersection entity.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "None of the above.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940541645,
+    "text": "What do you call the entity created when you resolve a M:M relationship?",
+    "image": null,
+    "options": [
+      {
+        "text": "Intersection entity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Inclusion entity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Recursive entity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "M:M entity",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940587231,
+    "text": "A non-transferable relationship is represented by which of the following symbols?",
+    "image": null,
+    "options": [
+      {
+        "text": "Heart",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Triangle",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Circle",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Diamond",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940600626,
+    "text": "Many to many relationships between entities usually hide what?",
+    "image": null,
+    "options": [
+      {
+        "text": "Uniqueness",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Another entity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "More attributes",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Another relationship",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940614825,
+    "text": "One to many relationships are the most uncommon type of relationships in an ERD. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940629666,
+    "text": "What uncommon relationship is described by the statements: \"Each DNA SAMPLE may be taken from one and only one PERSON and each PERSON may provide one and only one DNA SAMPLE\"",
+    "image": null,
+    "options": [
+      {
+        "text": "One to One Optional",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "One to Many Mandatory",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Many to Many Mandatory",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "One to Many Optional",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940638335,
+    "text": "A non-transferable relationship means the relationship is manatory at both sides. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940654563,
+    "text": "What relationship is described by the statements: \"Each CUSTOMER may place one or more ORDERs, each ORDER must be placed by one and only one CUSTOMER\"",
+    "image": null,
+    "options": [
+      {
+        "text": "One to One",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Many to Many",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "One to Many",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Many to More",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940663755,
+    "text": "Relationships can be Redundant. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940677159,
+    "text": "A relationship on an ERD can have attributes. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940685852,
+    "text": "A Diamond on a relationship indicates the Relationship as Non-Tranferable. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940698038,
+    "text": "If a relationship can NOT be moved between instances of the entities it connects, it is said to be:",
+    "image": null,
+    "options": [
+      {
+        "text": "Non-Transferable",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Mandatory",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Transferable",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Optional",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940710336,
+    "text": "A barred relationship on an ERD signifies that the UID of the intersection entity is inherited from the entities that made up the original many to many relationship. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940730791,
+    "text": "Which of the following pairs of entities is most likely to be modeled as a M:M relationship?",
+    "image": null,
+    "options": [
+      {
+        "text": "CAR and WHEEL",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "PERSON and FINGERPRINT",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "TEACHER and SUBJECT AREA",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "TREE and BRANCH",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940764655,
+    "text": "Which of the following is an example of a non-transferable relationship",
+    "image": null,
+    "options": [
+      {
+        "text": "STUDENT to COURSE",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "PERSON to BIRTH PLACE",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "EMPLOYEE to DEPARTMENT",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "TEACHER to SCHOOL",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940782306,
+    "text": "If the same relationship is represented twice in an Entity Relationship Model, it is said to be:",
+    "image": null,
+    "options": [
+      {
+        "text": "Resourceful",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Removable",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Replicated",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Redundant",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940793727,
+    "text": "Every ERD must have at least one non-transferable relationship. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940803361,
+    "text": "The relationship between CUSTOMER and RECEIPT is an example of a non-transferable relationship. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940819405,
+    "text": "When you resolve a M:M by creating an intersection entity, this new entity will always inherit:",
+    "image": null,
+    "options": [
+      {
+        "text": "The UID's from the entities in the original M:M.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Nothing is inherited from the original entities and relationship.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "A relationship to each entity from the original M:M.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "The attributes of both related entities.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940827032,
+    "text": "When you resolve a M:M, you simply re-draw the relationships between the two original entities; no new entities are created. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785940962931,
+    "text": "Many to many relationships must be left in the Model. It is important to have them documented as M-M. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785941314778,
+    "text": "If a relationship can be moved between instances of the entities it connects, it is said to be:",
+    "image": null,
+    "options": [
+      {
+        "text": "Transferable",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Recursive",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Implicit",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Committed",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785941422449,
+    "text": "If two entities have two relationships between them, these relationships can be either _____________ or _____________ .",
+    "image": null,
+    "options": [
+      {
+        "text": "Replicated or Required",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Redundant and Replicated",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Resourced and Really Good",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Redundant or Required",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1785943670235,
+    "text": "Attributes can be either mandatory or optional. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736074680,
+    "text": "Examine the following Entity and decide which rule of Normal Form is being violated:\n\nENTITY: CLIENT\nATTRIBUTES:\n    # CLIENT ID\n    FIRST NAME\n    LAST NAME\n    STREET\n    CITY",
+    "image": null,
+    "options": [
+      {
+        "text": "1st Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "2nd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "3rd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "None of the above, the entity is fully normalised.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736094323,
+    "text": "When any attribute in an entity is dependent on any other non-UID attribute in that entity, this is known as:",
+    "image": null,
+    "options": [
+      {
+        "text": "Functional dependency",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Non-dependency",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Transitive dependency",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Dependency",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736276032,
+    "text": "Where an entity has more than one attribute suitable to be the Primary UID, these are known as _____________ UIDs.",
+    "image": null,
+    "options": [
+      {
+        "text": "Simple",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Secondary",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Composite",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Candidate",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736301365,
+    "text": "Normalizing an Entity to 1st Normal Form is done by removing any attributes that contain muliple values. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736331170,
+    "text": "Examine the following entity and decide which attribute breaks the 2nd Normal Form rule:\n\nENTITY: CLASS\nATTRIBUTES:\n   #CLASS ID\n   #TEACHER ID\n   SUBJECT\n   TEACHER NAME",
+    "image": null,
+    "options": [
+      {
+        "text": "CLASS ID",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "TEACHER ID",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "TEACHER NAME",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "SUBJECT",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736355170,
+    "text": "If an entity has a multi-valued attribute, to conform to the rule of 1st Normal Form we:",
+    "image": null,
+    "options": [
+      {
+        "text": "Make the attribute optional",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Do nothing, an entity does not have to be in 1st Normal Form",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Create an additional entity and relate it to the original entity with a 1:M relationship.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Create an additional entity and relate it to the original entity with a M:M relationship.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736414418,
+    "text": "Examine the following entity and decide which attribute breaks the 2nd Normal Form rule:\n\nENTITY: RECEIPT\nATTRIBUTES:\n   #CUSTOMER ID\n   #STORE ID\n   STORE LOCATION\n   DATE",
+    "image": null,
+    "options": [
+      {
+        "text": "STORE LOCATION",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "CUSTOMER ID",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "DATE",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "STORE ID",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736427945,
+    "text": "An entity can only have one Primary UID. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736438695,
+    "text": "An attribute can have multiple values and still be in 1st Normal Form. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736479195,
+    "text": "Examine the following Entity and decide which rule of Normal Form is being violated:\n\nENTITY: CLIENT ORDER\nATTRIBUTES:\n    # CLIENT ID\n    # ORDER ID\n    FIRST NAME\n    LAST NAME\n    ORDER DATE\n    CITY",
+    "image": null,
+    "options": [
+      {
+        "text": "1st Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "2nd Normal Form.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "3rd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "None of the above, the entity is fully normalised.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736496995,
+    "text": "A UID can be made up from the following: (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Synonyms",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Attributes",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Entities",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Relationships",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736537799,
+    "text": "The Rule of 3rd Normal Form states that No Non-UID attribute can be dependent on another non-UID attribute. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736555788,
+    "text": "People are not born with “numbers”, but a lot of systems assign student numbers, customer IDs, etc.  These are known as a/an ______________ UID.",
+    "image": null,
+    "options": [
+      {
+        "text": "Artificial",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Structured",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Unrealistic",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Identification",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736586952,
+    "text": "To resolve a 2nd Normal Form violation, we:",
+    "image": null,
+    "options": [
+      {
+        "text": "Delete the attribute that was causing the violation.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Move the attribute that violates 2nd Normal Form to a new entity with a relationship to the original entity.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Do nothing, an entity does not need to be in 2nd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Move the attribute that violates 2nd Normal Form to a new ERD.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736600710,
+    "text": "There is no limit to how many attributes can make up an entity's UID. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736613093,
+    "text": "To convert an entity with a multi valued attribute to 1st Normal Form, we create an additional entity and relate it to the original entity with a 1:1 relationship. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736625411,
+    "text": "When data is only stored in one place in a database, the database conforms to the rules of ___________.",
+    "image": null,
+    "options": [
+      {
+        "text": "Normalization",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Multiplication",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Reduction",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Normality",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736642644,
+    "text": "A transitive dependency exists when any attribute in an entity is dependent on any other non-UID attribute in that entity. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736657111,
+    "text": "Which of the following would be suitable UIDs for the entity EMPLOYEE: (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Address",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Last Name",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Social Security Number",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Employee ID",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736683758,
+    "text": "Examine the following Entity and decide which rule of Normal Form is being violated:\n\nENTITY: CLIENT\nATTRIBUTES:\n    # CLIENT ID\n    FIRST NAME\n    LAST NAME\n    ORDER ID\n    STREET",
+    "image": null,
+    "options": [
+      {
+        "text": "1st Normal Form.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "2nd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "3rd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "None of the above, the entity is fully normalised.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736696712,
+    "text": "If an entity has no attribute suitable to be a Primary UID, we can create an artificial one. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736715025,
+    "text": "A candidate UID that is not chosen to be the Primary UID is called:",
+    "image": null,
+    "options": [
+      {
+        "text": "Composite",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Artificial",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Simple",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Secondary",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736729531,
+    "text": "Any Non-UID attribute must be dependent upon the entire UID. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736740741,
+    "text": "A unique identifier can only be made up of one attribute. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736769625,
+    "text": "Examine the following Entity and decide which sets of attributes break the 3rd Normal Form rule:  \n\nENTITY: TRAIN\nATTRIBUTES:\n    TRAIN ID\n    MAKE\n    DRIVER ID\n    DRIVER NAME\n    DATE OF MANUFACTURE",
+    "image": null,
+    "options": [
+      {
+        "text": "TRAIN ID, MAKE",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "DRIVER ID, DRIVER NAME",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "MAKE, DATE OF MANUFACTURE",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "None of the above, the entity is already in 3rd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736784932,
+    "text": "When data is stored in more than one place in a database, the database violates the rules of ___________.",
+    "image": null,
+    "options": [
+      {
+        "text": "Decency",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Normalcy",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Normalization",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Replication",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736804094,
+    "text": "What is the rule of Second Normal Form?",
+    "image": null,
+    "options": [
+      {
+        "text": "No non-UID attributes can be dependent on any part of the UID.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Some non-UID attributes can be dependent on the entire UID.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "All non-UID attributes must be dependent upon the entire UID.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736817804,
+    "text": "When all attributes are single-valued, the database model is said to conform to:",
+    "image": null,
+    "options": [
+      {
+        "text": "3rd Normal Form",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "4th Normal Form",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "1st Normal Form",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "2nd Normal Form",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786736837510,
+    "text": "When is an entity in 2nd Normal Form?",
+    "image": null,
+    "options": [
+      {
+        "text": "When all non-UID attributes are dependent upon the entire UID.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "When attributes with repeating or multi-values are present.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "When no attritibutes are mutually independent and all are fully dependent on the primary key.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "None of the Above.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786737119579,
+    "text": "An entity could have more than one attribute that would be a suitable Primary UID. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786737265439,
+    "text": "Examine the following entity and decide how to make it conform to the rule of 2nd Normal Form:\n\nENTITY: RECEIPT\nATTRIBUTES:\n   #CUSTOMER ID\n   #STORE ID\n   STORE LOCATION\n   DATE",
+    "image": null,
+    "options": [
+      {
+        "text": "Move the attribute STORE LOCATION to a new entity, STORE, with a UID of STORE ID, and create a relationship to the original entity.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Do nothing, it is already in 2nd Normal Form.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Delete the attribute STORE ID",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Move the attribute STORE LOCATION to a new entity, STORE, with a UID of STORE LOCATION, and create a relationship to the original entity.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786737481070,
+    "text": "An entity ORDER has the attributes Order ID, Order Date, Product id, Customer ID. This entity is in 1st Normal Form. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786737513059,
+    "text": "The candidate UID that is chosen to identify an entity is called the Primary UID; other candidate UIDs are called Secondary UIDs.",
+    "image": null,
+    "options": [
+      {
+        "text": "No, each Entity can only have one UID, the secondary one.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "No, after UIDs are first sorted, the first one is called the Primary UID, the second is the Secondary UID, etc.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Yes, this is the way UID's are named.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "No, it is not possible to have more than one UID for an Entity.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786737580330,
+    "text": "As a database designer, you do not need to worry about where in the datamodel you store a particular attribute; as long as you get it onto the ERD, your job is done. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793840216,
+    "text": "Which of the following would best be represented by an arc?",
+    "image": null,
+    "options": [
+      {
+        "text": "PARENT (Girl, Bob)",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "TEACHER (Female, Bob)",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "STUDENT (Grade A student, Average Student)",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "DELIVERY ADDRESS (Home, Office)",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793850755,
+    "text": "A particular problem may be solved using either a Recursive Relationship or a Hierarchical Relationship, though not at the same time. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793864572,
+    "text": "A relationship between an entity and itself is called a/an:",
+    "image": null,
+    "options": [
+      {
+        "text": "Invalid Relationship",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Heirarchical Relationship",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Recursive Relationship",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "General Relationship",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793890442,
+    "text": "Which of the following can be added to a relationship?",
+    "image": null,
+    "options": [
+      {
+        "text": "A composite attribute",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "An optional attribute can be created",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "An arc can be assigned",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "An attribute",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793906633,
+    "text": "Arcs are used to visually represent _________ between two or more relationships in an ERD.",
+    "image": null,
+    "options": [
+      {
+        "text": "Inheritance",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Differences",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Exclusivity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Sameness",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793924018,
+    "text": "A Recursive Relationship is represented on an ERD by a/an:",
+    "image": null,
+    "options": [
+      {
+        "text": "Dog's Tail",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Single Toe",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Pig's Ear",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Crow's Foot",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793941654,
+    "text": "Every business has restrictions on which attribute values and which relationships are allowed. These are known as:",
+    "image": null,
+    "options": [
+      {
+        "text": "Relationships",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Constraints.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Entities.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Attributes",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793954723,
+    "text": "All relationships participating in an arc must be mandatory. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793969235,
+    "text": "Cascading UIDs are a feature often found in what type of Relationship?",
+    "image": null,
+    "options": [
+      {
+        "text": "Invalid Relationship",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "General Relationship",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Heirarchical Relationship",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Recursive Relationship",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786793980383,
+    "text": "A recursive relationship must be Mandatory at both ends. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794005702,
+    "text": "An arc can often be modeled as Supertype and Subtypes. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794020024,
+    "text": "To visually represent exclusivity between two or more relationships in an ERD you would most likely use an ________.",
+    "image": null,
+    "options": [
+      {
+        "text": "Relationship",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Arc",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Attribute",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "UID",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794046457,
+    "text": "A Hierarchical relationship is a series of relationships that reflect entities organized into successive levels. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794068856,
+    "text": "Which of the following would best be represented by an arc?",
+    "image": null,
+    "options": [
+      {
+        "text": "STUDENT (senior, male)",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "STUDENT (graduating, female)",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "STUDENT ( University, Technical College)",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "STUDENT (Grade A student, Average Student)",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794083899,
+    "text": "Arcs model an Exclusive OR constraint. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794103637,
+    "text": "A single relationship can be both Recursive and Hierachal at the same time. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794120552,
+    "text": "Arcs are Mandatory in Data modeling. All ERD's must have at least one Arc. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786794721607,
+    "text": "Business organizational charts are often modeled as a Hierarchical relationship. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796438394,
+    "text": "Which of the following statements are true for ERD's to enhance their readability. (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "You must ensure that you have every single entity--even if hundreds of them exist--on one single, big diagram.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "It is OK to break down a large ERD into subsets of the overall picture. By doing so, you end up with more than one ERD that, taken together, documents the entire system.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "The crows feet (many ends) can point whichever way is the easiest to draw.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Avoid crossing one relationship line with another.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796489232,
+    "text": "When a relationship may or may not be transferable, depending on time, this is know as a/an:",
+    "image": null,
+    "options": [
+      {
+        "text": "Transferable Relationship",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Arc.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Non-transferable Relationship.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Conditional Non-transferable Relationship.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796501527,
+    "text": "You must make sure all entities of a proposed system can fit onto one diagram. It is not allowed to break up a data model into more than one diagram. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796515779,
+    "text": "When modeling historical data the unique identifier is always made up of a barred relationship from the original two entities. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796557121,
+    "text": "Historical data must never be kept. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796569284,
+    "text": "There are no circumstances where you would create a DAY entity. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796601095,
+    "text": "In an ERD, High Volume Entities usually have very few relationships to other entities. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796624507,
+    "text": "Modeling historical data is optional. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796644957,
+    "text": "Which of the following would be a logical constraint when modeling time for a City entity?",
+    "image": null,
+    "options": [
+      {
+        "text": "People are born in the city and people die in the city.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Daily traffic patterns must be monitored to determine how many law enforcement officers are needed.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "If you are doing a system for any French City, you would need security clearance.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Cites may change their names and/or country association if the borders of a country change.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796671947,
+    "text": "You are doing a data model for a computer sales company where the price of postage depends upon the day of the week that goods are shipped. So shipping is more expensive if the customer wants a delivery to take place on a Saturday or Sunday. What would be the best way to model this?",
+    "image": null,
+    "options": [
+      {
+        "text": "Use a Delivery Day entity, which holds prices against week days, and ensure the we also have an attribute for the Requested Delivery Day in the Order Entity.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Email current prices to all employees whenever a price changes.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Update the prices in the system, print out the current prices when they change, and pin them on the company noticeboard.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Allow them to enter whatever delivery charge they want.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796687607,
+    "text": "In a payroll system, it is desirable to have an entity called DAY with a holiday attribute when you want to track special holiday dates. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796713427,
+    "text": "No formal rules exist for drawing ERD's. The most important thing is to make sure that all entities, attributes, and relationships are documented on the diagram, and the diagram is clear and readable. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796749928,
+    "text": "What is the function of logging or journaling in conceptual data models?",
+    "image": null,
+    "options": [
+      {
+        "text": "Gives a timestamp to all entities.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Represents entities as time in the data model.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Allows you to track the history of attribute values, relationships, and/or entire entities",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Creates a fixed time for all events in a data model.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786796776558,
+    "text": "Historical data should always be kept. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797160101,
+    "text": "Which of the following is a logical constraint that could result from considering how time impacts an example of data storage?",
+    "image": null,
+    "options": [
+      {
+        "text": "Dates must be stored with Time.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "End Date must be before the Start Date.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "An ASSIGNMENT may only refer to an EMPLOYEE with a valid employee record at the Start Date of the ASSIGNMENT.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "EMPLOYEE periods can overlap causing the database to crash.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797188488,
+    "text": "Which of the following would be a logical constraint when modeling time for a country entity?",
+    "image": null,
+    "options": [
+      {
+        "text": "Countries may change their names and/or borders over a period of time.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Daily traffic patterns must be monitored to determine which countries are overcrowded.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "If you are doing a system for France or Germany, you would need security clearance.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "People have births and deaths in their countries that must be tracked by the system.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797213558,
+    "text": "Conditional non-transferability refers to a relationship that may or may not be transferable, depending on time. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797227414,
+    "text": "If you have an entity with a DATE attribute, in addition to other attributes that track date characteristics, you should create a DAY entity. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797436572,
+    "text": "Why would you want to model a time component when designing a system that lets people buy bars of gold?",
+    "image": null,
+    "options": [
+      {
+        "text": "The price of gold fluctuates and, to determine the current price, you need to know the time of purchase.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Sales people must determine where the gold is coming from.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The Government of your country might want to be notified of this transaction.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "You would not want to model this; it is not important.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797469937,
+    "text": "Which of the following scenarios should be modeled so that historical data is kept? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "STUDENT and GRADE",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "LIBRARY and NUMBER OF BOOKS",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "STUDENT and AGE",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "LIBRARY and BOOK",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797493975,
+    "text": "Which of the following scenarios should be modeled so that historical data is kept? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "BABY and AGE",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "CUSTOMER and ORDERS",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "TEACHER and AGE",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "CUSTOMER and PAYMENTS",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797520537,
+    "text": "Which of the following statements are true to enhance the readability of ERDs? (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "It does not matter which way the crows feet (many ends of a relationship) point.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Relationship lines should not cross.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Crossing relationship lines help the readability of the diagram.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Crows feet (the many-ends of relationships) should consistently point the same direction where possible, either South & East or North & West",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797535860,
+    "text": "Formal rules exist for drawing ERD's. You must always follow them, even if it results in an ERD that is difficult to read. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797569971,
+    "text": "Modeling historical data can produce a unique identifier that includes a date. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797581504,
+    "text": "When a system requires that old values for attributes are kept on record, this is know as Journaling or Logging. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797602539,
+    "text": "All systems must have an entity called WEEK with a holiday attribute so that you know when to give employees a holiday. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797798352,
+    "text": "There is no point in trying to group your entities together on your diagram according to volume, and making a diagram look nice is a waste of time. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797950167,
+    "text": "All systems must include functionality to provide logging or journaling in conceptual data models. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786797967287,
+    "text": "You are doing a data model for a computer sales company where the price fluctuates on a regular basis. If you want to allow the company to modify the price and keep track of the changes, what is the best way to model this?",
+    "image": null,
+    "options": [
+      {
+        "text": "A. Create a product entity and a related price entity with start and end dates, and then let the users enter the new price whenever required.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "B. Create a new item and a new price every day.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "C. Use a price entity with a start and end date",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "D. Allow them to delete the item and enter a new one.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "E. Both A and C",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786798117365,
+    "text": "When you add the concept of time to your data model, your model becomes more complex. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786798129539,
+    "text": "How do you know when to use the different types of time in your design?",
+    "image": null,
+    "options": [
+      {
+        "text": "It depends on the functional needs of the system .",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Always model time; you can take it out later if it is not needed.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "You would first determine the existence of the concept of time and map it against the Greenwich Mean Time.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The rules are fixed and should be followed.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820145676,
+    "text": "It is possible to implement non-transferability via a simple Foreign Key Relationship. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820176740,
+    "text": "In a physical data model, an entity becomes a _____________.",
+    "image": null,
+    "options": [
+      {
+        "text": "Column",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Attribute",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Constraint",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Table",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820191857,
+    "text": "Relationships on an ERD can only be transformed into UIDs in the physical model. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820219486,
+    "text": "When translating an arc relationship to a physical design, you must turn the arc relationships into foreign keys. What additional step must you take with the created foreign keys to ensure the exclusivity principle of arc relationships? (Assume that you are implementing an Exclusive Design) (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Make all relationships mandatory",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Make all relationships optional",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Create an additional check constraint to verify that one foreign key is populated and the others are not",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "All the above",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820288278,
+    "text": "The explanation below is an example of which constraint type?\nA primary key must be unique, and no part of the primary key can be null.",
+    "image": null,
+    "options": [
+      {
+        "text": "Column integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Entity integrity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "User-defined integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Referential integrity",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820306054,
+    "text": "A foreign key cannot refer to a primary key in the same table. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820328448,
+    "text": "Identify all of the correct statements that complete this sentence: A primary key is… (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "A set of columns that uniquely identifies each row in a table",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Only one column that cannot be null",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "A single column that uniquely identifies each row in a table",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "A set of columns and keys in a single table that uniquely identifies each row in a single table",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820347218,
+    "text": "In an Oracle database, why would 1_TABLE not work as a table name?",
+    "image": null,
+    "options": [
+      {
+        "text": "The database does not understand all capital letters.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "TABLE is a reserved word.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Object names must not start with a number. They must begin with a letter.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "There is no problem here. You can create a table called 1_TABLE.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820361414,
+    "text": "In a physical data model, a relationship is represented as a:",
+    "image": null,
+    "options": [
+      {
+        "text": "Primary Key",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Foreign Key",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Column",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Unique Identifier",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820376980,
+    "text": "In a physical model, many to many relationships are resolved via a structure called a(n): ________________",
+    "image": null,
+    "options": [
+      {
+        "text": "Intersection Table",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Intersection Entity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Supertype",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Subtype",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820471363,
+    "text": "The Physical model is created by transforming which of the following models?",
+    "image": null,
+    "options": [
+      {
+        "text": "Table",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Constraint",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Physical",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Conceptual",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820484056,
+    "text": "A table should have a primary key. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820493233,
+    "text": "An \"Arc Implementation\" can be done just like any other Relationship - you simply add the required Foreign Keys. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820503584,
+    "text": "When mapping supertypes, relationships at the supertype level transform as usual. Relationships at the subtype level are implemented as foreign keys, but the foreign key columns all become optional. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820520563,
+    "text": "One-to-Many Optional to Mandatory becomes a _______________ on the Master table.",
+    "image": null,
+    "options": [
+      {
+        "text": "Mandatory Foreign Key",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Optional Foreign Key",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Primary Key",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Unique Key",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820535377,
+    "text": "Attributes become columns in a database table. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820553393,
+    "text": "Which of the following is a valid reason for considering a Subtype Implementation?",
+    "image": null,
+    "options": [
+      {
+        "text": "Most of the relationships are at the supertype level.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The resulting table will reside in a single database and be used by just ONE user.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Business functionality, business rules, access paths, and frequency of access are all very different between the subtypes.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "The common access paths for the supertypes are different.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820614069,
+    "text": "The explanation below is an example of which constraint type? \nA column must contain only values consistent with the defined data format of the column.",
+    "image": null,
+    "options": [
+      {
+        "text": "Entity integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "User-defined integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Referential integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Column integrity",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820641189,
+    "text": "Why would this table name NOT work in an Oracle database? this_year_end+next_year",
+    "image": null,
+    "options": [
+      {
+        "text": "Table names must begin with an alphabetic character.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "It is too long.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The Plus sign + is not allowed in object names.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "None of the above.",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820651844,
+    "text": "The Oracle Database can implement a many to many relationship. You simply create two foreign keys between the two tables. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820679259,
+    "text": "The explanation below is an example of which constraint type?\nIf the value in the balance column of the ACCOUNTS table is below 100, we must send a letter to the account owner which will require extra programming to enforce.",
+    "image": null,
+    "options": [
+      {
+        "text": "Entity integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "User-defined integrity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Column integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Referential integrity",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820698834,
+    "text": "To resolve a many to many relationship in a physical model you create a(n) ___________________?",
+    "image": null,
+    "options": [
+      {
+        "text": "Intersection entity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Two tables with Foreign key constraints between them",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Intersection table",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Unique key constraints",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820722746,
+    "text": "Column integrity refers to",
+    "image": null,
+    "options": [
+      {
+        "text": "Columns always having values",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Columns always containing positive numbers",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Columns always containing values consistent with the defined data format",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Columns always containing text data less than 255 characters",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820735171,
+    "text": "The transformation from an ER diagram to a physical design involves changing terminology. Entities in the ER diagram become __________ :",
+    "image": null,
+    "options": [
+      {
+        "text": "Unique Keys",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Foreign Keys",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Tables",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Columns",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820746814,
+    "text": "An Arc is transformed to the physical model by adding a foreign Key for every relationship in the Arc. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820785719,
+    "text": "The explanation below is an example of which constraint type?\nThe value in the dept_no column of the EMPLOYEES table must match a value in the dept_no column in the DEPARTMENTS table.",
+    "image": null,
+    "options": [
+      {
+        "text": "Entity integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Referential integrity",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Column integrity",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "User-defined integrity",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820818056,
+    "text": "Identify all of the incorrect statements that complete this sentence: A primary key is... (Choose Three)",
+    "image": null,
+    "options": [
+      {
+        "text": "One or more columns in a table that uniquely identifies each row in that table.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "A set of columns in one table that uniquely identifies each row in another table.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Only one column that must be null.",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "A single column that uniquely identifies each column in a table.",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820832093,
+    "text": "When mapping supertypes, relationships at the supertype level transform as usual. Relationships at subtype level are implemented as foreign keys, but the foreign key columns all become mandatory. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820846380,
+    "text": "Foreign keys cannot be null when",
+    "image": null,
+    "options": [
+      {
+        "text": "It refers to the same table",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "It refers to another table",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "It is part of a primary key",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "It contains three or more columns",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820868138,
+    "text": "The conceptual model is transformed into a physical model. The physical implementation will be a relational database. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820928150,
+    "text": "One-to-One relationships are transformed into Check Constraints in the tables created at either end of that relationship. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820943046,
+    "text": "In a physical data model, an attribute becomes a _____________.",
+    "image": null,
+    "options": [
+      {
+        "text": "Constraint",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Table",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Foreign Key",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Column",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786820988851,
+    "text": "When an Arc is transformed to the physical model every relationship in the Arc becomes a mandatory Foreign Key. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786821585929,
+    "text": "Foreign keys must be null. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786821604907,
+    "text": "In an Oracle database, why would the following table name not be allowed 'EMPLOYEE JOBS'?",
+    "image": null,
+    "options": [
+      {
+        "text": "You cannot have spaces between words in a table name",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "EMPLOYEE is a reserved word",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The database does not understand all capital letters",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "JOBS is a reserved word",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786821622779,
+    "text": "A barrred Relationship will result in a Foreign Key column that also is part of:",
+    "image": null,
+    "options": [
+      {
+        "text": "The Column Name",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The Primary Key",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "The Check Constraint",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The Table Name",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786821631554,
+    "text": "A foreign key always refers to a primary key in the same table. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786822103588,
+    "text": "Two entities A and B have an optional (A) to Mandatory (B) One-to-One relationship. When they are transformed, the Foreign Key(s) is placed on:",
+    "image": null,
+    "options": [
+      {
+        "text": "Both tables A and B get a new column and a Foreign Key.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The table A",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Nowhere, One-to-One relationships are not transformed.",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "The table B",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786822144671,
+    "text": "The \"Arc Implementation\" is a synonym for what type of implementation?",
+    "image": null,
+    "options": [
+      {
+        "text": "Supertype Implementation",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Supertype and Subtype Implementation",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Subtype Implementation",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Cascade Implementation",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786822720270,
+    "text": "During which phases of the System Development Life Cycle would you roll out the system to the users?",
+    "image": null,
+    "options": [
+      {
+        "text": "Build and Transition",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Transition and Production",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Design and Production",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Strategy and Analysis",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786822743355,
+    "text": "The data model can be used to...",
+    "image": null,
+    "options": [
+      {
+        "text": "Communicate and confirm",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Describe and specify",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Analyze and refine",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "All of the Above",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786823221980,
+    "text": "System Documentation is developed right at the end once the system has gone live and users have been using it for a little while. You are more likely to get it correct that way. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1786823231602,
+    "text": "Systems are always just rolled out as soon as the programming phase is finished. No further work is required once the development is finished. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": true,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1788022858428,
+    "text": "In a physical data model, a relationship is represented as a combination of: (Choose Two)",
+    "image": null,
+    "options": [
+      {
+        "text": "Column",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Primary Key or Unique Key",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Foreign Key",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Check Constraint or Unique Key",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1788024043627,
+    "text": "In an ERD, it is a good idea to group your entities according to the expected volumes. By grouping high volume entities together, the diagrams could become easier to read. True or False?",
+    "image": null,
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "False",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1788120491145,
+    "text": "During which phases of the System Development Life Cycle would you test the system before rolling it out to the users?",
+    "image": null,
+    "options": [
+      {
+        "text": "Design and Production",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Transition and Production",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Strategy and Analysis",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Build and Transition",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  },
+  {
+    "id": 1791189584004,
+    "text": "How would you model a business rule that states that girls and boys may not attend classes together?",
+    "image": null,
+    "options": [
+      {
+        "text": "Make the attribute Gender mandatory",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Use a supertype",
+        "isCorrect": false,
+        "image": null
+      },
+      {
+        "text": "Supertype STUDENT has two subtypes BOY and GIRL which are related to GENDER, which is related to CLASS",
+        "isCorrect": true,
+        "image": null
+      },
+      {
+        "text": "Make the attribute Gender optional",
+        "isCorrect": false,
+        "image": null
+      }
+    ],
+    "learned": false
+  }
+]
