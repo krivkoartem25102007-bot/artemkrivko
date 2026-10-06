@@ -54,10 +54,59 @@ h1 span { color: #75a486; font-family: Georgia, serif; font-style: italic; font-
 .answer-option.selected { border-color: #aacbb2; background: #f1f7f1; }.answer-option:disabled { cursor: default; transform: none; }
 .feedback { display: flex; align-items: center; gap: 7px; margin-top: 12px; font-size: 9px; }.feedback-good { color: #649773; }.feedback-try { color: #bd886c; }.feedback span { font-size: 12px; }
 .empty-state { margin: 20px 0; padding: 62px 20px; text-align: center; border: 1px dashed #dce5dc; border-radius: 13px; background: rgba(255,255,255,.58); }.empty-state > span { color: #8fb397; font-size: 30px; }.empty-state h3 { margin: 10px 0 5px; color: #506455; font-size: 17px; }.empty-state p { color: #99a49b; font-size: 11px; }
+.welcome-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.exam-start-button, .exam-secondary-button, .exam-exit-button { min-height: 42px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 0 16px; border: 1px solid transparent; border-radius: 9px; font: inherit; font-size: 11px; font-weight: 650; cursor: pointer; transition: background .16s, border-color .16s, transform .16s; }
+.exam-start-button { background: #2f6047; color: #fff; box-shadow: 0 4px 12px rgba(47,96,71,.14); }
+.exam-start-button:hover:not(:disabled) { background: #3b7657; transform: translateY(-1px); }
+.exam-start-button:disabled { opacity: .45; cursor: not-allowed; }
+.exam-start-button span { font-size: 15px; }
+.exam-secondary-button, .exam-exit-button { border-color: #e5ebe5; background: #fff; color: #6f7d71; }
+.exam-secondary-button:hover:not(:disabled), .exam-exit-button:hover { border-color: #cbdccf; background: #f6faf6; color: #41664b; }
+.exam-secondary-button:disabled { opacity: .45; cursor: not-allowed; }
+.exam-panel { max-width: 840px; margin: 0 auto; padding: 26px; border: 1px solid #e6ece6; border-radius: 16px; background: linear-gradient(145deg, #fff 0%, #fbfdfb 100%); box-shadow: 0 10px 30px rgba(43,66,48,.045); }
+.exam-panel-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 26px; }
+.exam-panel-header h2, .exam-results h2 { margin: 8px 0 0; color: #304437; font-size: 24px; letter-spacing: -.7px; font-weight: 620; }
+.exam-progress-row { display: flex; justify-content: space-between; margin-bottom: 8px; color: #87948a; font-size: 10px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.exam-progress-track { height: 5px; overflow: hidden; border-radius: 9px; background: #edf2ed; }
+.exam-progress-track span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #7eaf89, #4e8761); transition: width .25s ease; }
+.exam-question { margin: 23px 0 0; padding: 24px; }
+.exam-navigation { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 17px; }
+.exam-navigation > span { color: #98a39a; font-size: 10px; text-align: center; }
+.exam-results { max-width: 840px; margin: 0 auto; padding: 34px 0 12px; text-align: center; }
+.exam-result-icon { width: 52px; height: 52px; display: grid; place-items: center; margin: 0 auto 16px; border-radius: 17px; background: #e7f2e9; color: #568563; font-size: 25px; }
+.exam-results > .eyebrow { justify-content: center; }
+.exam-results h2 { margin-top: 11px; font-size: 30px; }
+.exam-result-score { margin: 18px 0 5px; color: #416f4e; font-size: clamp(54px, 8vw, 76px); line-height: 1; font-weight: 650; letter-spacing: -4px; font-variant-numeric: tabular-nums; }
+.exam-result-score span { margin-left: 3px; color: #82ac8b; font-size: .48em; letter-spacing: -1px; }
+.exam-result-summary { margin: 0 0 27px; color: #859187; font-size: 12px; }
+.exam-review { padding: 23px; border: 1px solid #e8ece7; border-radius: 14px; background: #fff; text-align: left; }
+.exam-review > h3 { display: flex; align-items: center; gap: 9px; margin: 0 0 15px; color: #435448; font-size: 15px; font-weight: 650; }
+.exam-review > h3 span { min-width: 22px; height: 22px; display: grid; place-items: center; padding: 0 6px; border-radius: 7px; background: #fbefe9; color: #ba8066; font-size: 10px; }
+.exam-review-list { display: grid; gap: 10px; }
+.exam-review-card { padding: 16px; border: 1px solid #edf0ec; border-radius: 10px; background: #fdfefc; }
+.exam-review-card h4 { margin: 10px 0 12px; color: #3e5043; font-size: 12px; line-height: 1.55; font-weight: 600; }
+.exam-review-label { margin: 0 0 6px; color: #819287; font-size: 9px; font-weight: 700; letter-spacing: .3px; text-transform: uppercase; }
+.exam-review-card ul { display: grid; gap: 5px; margin: 0; padding: 0; list-style: none; }
+.exam-review-card li { position: relative; padding: 9px 11px 9px 29px; border-radius: 7px; background: #eff7f0; color: #52745a; font-size: 11px; line-height: 1.45; }
+.exam-review-card li::before { content: '✓'; position: absolute; left: 11px; color: #6b9c75; font-weight: 700; }
+.exam-perfect { display: inline-flex; align-items: center; gap: 8px; margin: 0 auto 20px; padding: 13px 17px; border: 1px solid #dcebe0; border-radius: 10px; background: #f3f8f3; color: #55785d; font-size: 12px; }
+.exam-perfect span { font-weight: 800; }
+.exam-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 9px; margin-top: 20px; }
+.exam-start-button:focus-visible, .exam-secondary-button:focus-visible, .exam-exit-button:focus-visible { outline: 2px solid #73a884; outline-offset: 2px; }
 .page-footer { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 29px 0 4px; color: #b0b8b0; font-size: 9px; }.footer-sparkle { color: #87af90; font-size: 12px; }
 
 @media (max-width: 900px) {
   .layout { grid-template-columns: 210px minmax(0, 1fr); }.sidebar { padding-inline: 13px; }.content { padding-inline: 30px; }.welcome-row { align-items: flex-start; flex-direction: column; gap: 20px; padding-bottom: 32px; }.progress-card { align-self: flex-start; }
+  .welcome-actions { width: 100%; align-items: flex-start; }
+  .exam-panel { padding: 18px 13px; }
+  .exam-question { padding: 17px 13px 15px; }
+  .exam-navigation { flex-wrap: wrap; }
+  .exam-navigation > span { order: -1; width: 100%; }
+  .exam-review { padding: 15px 11px; }
+  .exam-review-card { padding: 13px 11px; }
+  .exam-results { padding-top: 22px; }
+  .exam-results h2 { font-size: 26px; }
+  .exam-panel-header h2 { font-size: 21px; }
 }
 @media (max-width: 640px) {
   .topbar { height: 64px; padding: 0 14px; }

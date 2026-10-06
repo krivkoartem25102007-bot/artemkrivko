@@ -113,6 +113,10 @@ function App() {
   const [activeSection, setActiveSection] = useState(ALL_QUESTIONS_LABEL)
   const [search, setSearch] = useState('')
   const [notice, setNotice] = useState('')
+  const [examQuestions, setExamQuestions] = useState<Question[] | null>(null)
+  const [examAnswers, setExamAnswers] = useState<Record<string, number[]>>({})
+  const [examIndex, setExamIndex] = useState(0)
+  const [examFinished, setExamFinished] = useState(false)
   const fileInput = useRef<HTMLInputElement>(null)
 
   const sections = useMemo(() => [...new Set(questions.map((question) => question.section))], [questions])
@@ -137,6 +141,45 @@ function App() {
     saveProgress({ ...answers, [question.id]: nextSelection })
   }
 
+  function startExam() {
+    const shuffled = [...questions]
+    for (let index = shuffled.length - 1; index > 0; index -= 1) {
+      const randomIndex = Math.floor(Math.random() * (index + 1))
+      const question = shuffled[index]
+      shuffled[index] = shuffled[randomIndex]
+      shuffled[randomIndex] = question
+    }
+    const selectedQuestions = shuffled.slice(0, 50)
+    if (selectedQuestions.length === 0) {
+      setNotice('Nejprve načtěte otázky, abyste mohli spustit test.')
+      return
+    }
+    setExamQuestions(selectedQuestions)
+    setExamAnswers({})
+    setExamIndex(0)
+    setExamFinished(false)
+    setNotice('')
+  }
+
+  function chooseExamAnswer(question: Question, optionIndex: number) {
+    const selected = examAnswers[question.id] ?? []
+    const nextSelection = selected.includes(optionIndex)
+      ? selected.filter((index) => index !== optionIndex)
+      : selected.length < question.answers.length ? [...selected, optionIndex] : selected
+    setExamAnswers({ ...examAnswers, [question.id]: nextSelection })
+  }
+
+  function endExam() {
+    setExamFinished(true)
+  }
+
+  function leaveExam() {
+    setExamQuestions(null)
+    setExamAnswers({})
+    setExamIndex(0)
+    setExamFinished(false)
+  }
+
   async function importFile(event: React.ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0]
     if (!file) return
@@ -146,6 +189,7 @@ function App() {
       if (imported.length === 0) throw new Error('V souboru nebyly nalezeny otázky s možnostmi a správnými odpověďmi. Zkontrolujte strukturu JSON.')
       setQuestions(imported)
       setAnswers({})
+      leaveExam()
       localStorage.setItem(STORAGE_KEY, JSON.stringify(imported))
       localStorage.removeItem(PROGRESS_KEY)
       setActiveSection(ALL_QUESTIONS_LABEL)
@@ -203,14 +247,70 @@ function App() {
               <h1>Učení může být <span>radost.</span></h1>
               <p className="intro">Vaše tempo, vaše otázky, váš pokrok. Začněte jednou odpovědí.</p>
             </div>
-            <div className="progress-card" aria-label={`Správně ${correctCount} z ${questions.length} otázek`}>
-              <div className="progress-ring" style={{ '--progress': `${percentage}%` } as React.CSSProperties}><span>{percentage}<small>%</small></span></div>
-              <div><strong>Váš pokrok</strong><p>{correctCount} z {questions.length} správně</p></div>
+            <div className="welcome-actions">
+              <button className="exam-start-button" onClick={startExam}><span aria-hidden="true">✦</span> Náhodný test 50 otázek</button>
+              <div className="progress-card" aria-label={`Správně ${correctCount} z ${questions.length} otázek`}>
+                <div className="progress-ring" style={{ '--progress': `${percentage}%` } as React.CSSProperties}><span>{percentage}<small>%</small></span></div>
+                <div><strong>Váš pokrok</strong><p>{correctCount} z {questions.length} správně</p></div>
+              </div>
             </div>
           </div>
 
           {notice && <div className="notice" role="status"><span>✦</span>{notice}<button onClick={() => setNotice('')} aria-label="Zavřít oznámení">×</button></div>}
 
+          {examQuestions ? examFinished ? (() => {
+            const examCorrectCount = examQuestions.filter((question) => isCorrect(question, examAnswers[question.id] ?? [])).length
+            const examPercentage = Math.round((examCorrectCount / examQuestions.length) * 100)
+            const incorrectQuestions = examQuestions.filter((question) => !isCorrect(question, examAnswers[question.id] ?? []))
+            return <section className="exam-results" aria-labelledby="exam-result-title">
+              <div className="exam-result-icon">{examPercentage >= 70 ? '✦' : '↗'}</div>
+              <div className="eyebrow">TEST DOKONČEN</div>
+              <h2 id="exam-result-title">Výsledek je tady</h2>
+              <p className="exam-result-score">{examPercentage}<span>%</span></p>
+              <p className="exam-result-summary">Správně {examCorrectCount} z {examQuestions.length} {questionWord(examQuestions.length)}. {examPercentage >= 70 ? 'Skvělá práce!' : 'Každý test je příležitost posunout se dál.'}</p>
+              {incorrectQuestions.length > 0 ? <div className="exam-review">
+                <h3>Otázky k zopakování <span>{incorrectQuestions.length}</span></h3>
+                <div className="exam-review-list">
+                  {incorrectQuestions.map((question, index) => <article className="exam-review-card" key={question.id}>
+                    <div className="question-meta"><span className="question-number">CHYBA {String(index + 1).padStart(2, '0')}</span><span className="topic-chip">{question.section}</span></div>
+                    <h4>{question.text}</h4>
+                    <p className="exam-review-label">Správná odpověď{question.answers.length > 1 ? 'i' : ''}</p>
+                    <ul>{question.answers.map((answer) => <li key={answer}>{question.options[answer]}</li>)}</ul>
+                  </article>)}
+                </div>
+              </div> : <div className="exam-perfect"><span>✓</span> Bez jediné chyby — všechno správně!</div>}
+              <div className="exam-actions"><button className="exam-start-button" onClick={startExam}>Zkusit nový test <span aria-hidden="true">↻</span></button><button className="exam-secondary-button" onClick={leaveExam}>Zpět k procvičování</button></div>
+            </section>
+          })() : (() => {
+            const question = examQuestions[examIndex]
+            const selected = examAnswers[question.id] ?? []
+            const progress = ((examIndex + 1) / examQuestions.length) * 100
+            return <section className="exam-panel" aria-label="Náhodný test">
+              <div className="exam-panel-header">
+                <div><div className="eyebrow"><span className="eyebrow-line" /> TEST BEZ NÁPOVĚDY</div><h2>Náhodný test</h2></div>
+                <button className="exam-exit-button" onClick={leaveExam}>Ukončit test</button>
+              </div>
+              <div className="exam-progress-row"><span>Otázka {examIndex + 1} z {examQuestions.length}</span><span>{Math.round(progress)} %</span></div>
+              <div className="exam-progress-track" role="progressbar" aria-label="Průběh testu" aria-valuemin={0} aria-valuemax={examQuestions.length} aria-valuenow={examIndex + 1}><span style={{ width: `${progress}%` }} /></div>
+              <article className="question-card exam-question">
+                <div className="question-meta"><span className="question-number">OTÁZKA {String(examIndex + 1).padStart(2, '0')}</span><span className="topic-chip">{question.section}</span></div>
+                <h3>{question.text}</h3>
+                {question.answers.length > 1 && <p className="multi-hint">Vyberte {question.answers.length} správné odpovědi ({selected.length}/{question.answers.length})</p>}
+                <div className="answers-grid">
+                  {question.options.map((option, optionIndex) => <button key={`${question.id}-${optionIndex}`} className={`answer-option ${selected.includes(optionIndex) ? 'selected' : ''}`} onClick={() => chooseExamAnswer(question, optionIndex)} aria-pressed={selected.includes(optionIndex)}>
+                    <span className="option-letter">{String.fromCharCode(65 + optionIndex)}</span><span className="option-text">{option}</span>
+                  </button>)}
+                </div>
+              </article>
+              <div className="exam-navigation">
+                <button className="exam-secondary-button" onClick={() => setExamIndex(examIndex - 1)} disabled={examIndex === 0}>← Předchozí</button>
+                <span>{selected.length === question.answers.length ? 'Odpověď zaznamenána' : `Vyberte ${question.answers.length} ${question.answers.length === 1 ? 'odpověď' : 'odpovědi'}`}</span>
+                {examIndex < examQuestions.length - 1
+                  ? <button className="exam-start-button" onClick={() => setExamIndex(examIndex + 1)} disabled={selected.length !== question.answers.length}>Další otázka <span aria-hidden="true">→</span></button>
+                  : <button className="exam-start-button" onClick={endExam} disabled={selected.length !== question.answers.length}>Dokončit test <span aria-hidden="true">✓</span></button>}
+              </div>
+            </section>
+          })() : <>
           <div className="toolbar">
             <div className="list-heading"><div><span className="eyebrow">VAŠE PROCVIČOVÁNÍ</span><h2>{activeSection === ALL_QUESTIONS_LABEL ? ALL_QUESTIONS_LABEL : activeSection}</h2></div><span className="question-total">{visibleQuestions.length} {questionWord(visibleQuestions.length)}</span></div>
             <label className="search-box"><span aria-hidden="true">⌕</span><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Hledat otázku…" aria-label="Hledat otázky" />{search && <button onClick={() => setSearch('')} aria-label="Vymazat hledání">×</button>}</label>
@@ -240,6 +340,7 @@ function App() {
               })}
             </div>
           )}
+          </>}
           <footer className="page-footer"><span>Vytvořeno pro klidné učení</span><span className="footer-sparkle">✳</span></footer>
         </section>
       </main>
