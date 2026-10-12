@@ -42,9 +42,20 @@ h1 { margin: 0; color: #253c31; font-size: clamp(25px, 3vw, 36px); line-height: 
 .answer-option.selected { border-color: #aacbb2; background: #f1f7f1; }.answer-option:disabled { cursor: default; transform: none; }
 .feedback { display: flex; align-items: center; gap: 7px; margin-top: 12px; font-size: 9px; }.feedback-good { color: #649773; }.feedback-try { color: #bd886c; }
 .empty-state { margin: 20px 0; padding: 62px 20px; text-align: center; border: 1px dashed #dce5dc; border-radius: 13px; background: rgba(255,255,255,.58); }.empty-state > span { color: #8fb397; font-size: 30px; }.empty-state h3 { margin: 10px 0 5px; color: #506455; font-size: 17px; }.empty-state p { color: #99a49b; font-size: 11px; }
+.page-footer { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 29px 0 4px; color: #b0b8b0; font-size: 9px; }.footer-sparkle { color: #87af90; font-size: 12px; }
 
 @media (max-width: 900px) {
   .layout { grid-template-columns: 210px minmax(0, 1fr); }.sidebar { padding-inline: 13px; }.content { padding-inline: 30px; }.welcome-row { align-items: flex-start; flex-direction: column; gap: 20px; padding-bottom: 32px; }.progress-card { align-self: flex-start; }
+  .welcome-actions { width: 100%; align-items: flex-start; }
+  .exam-panel { padding: 18px 13px; }
+  .exam-question { padding: 17px 13px 15px; }
+  .exam-navigation { flex-wrap: wrap; }
+  .exam-navigation > span { order: -1; width: 100%; }
+  .exam-review { padding: 15px 11px; }
+  .exam-review-card { padding: 13px 11px; }
+  .exam-results { padding-top: 22px; }
+  .exam-results h2 { font-size: 26px; }
+  .exam-panel-header h2 { font-size: 21px; }
 }
 @media (max-width: 640px) {
   .topbar { height: 64px; padding: 0 14px; }

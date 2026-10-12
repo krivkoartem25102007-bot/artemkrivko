@@ -24,6 +24,8 @@ Přiložená databáze 260 otázek je součástí aplikace a zobrazí se automat
 
 Otázky s více správnými odpověďmi (například „Choose Two“) lze vyřešit výběrem požadovaného počtu možností. Poté se správné odpovědi zvýrazní zeleně.
 
+Tlačítko „Náhodný test 50 otázek“ spustí samostatný test z náhodně vybraných otázek (u menších sad použije všechny dostupné). Otázky se zobrazují postupně a správnost odpovědí se ukáže až po dokončení testu. Výsledek obsahuje procentuální úspěšnost a seznam chybných otázek se správnými odpověďmi.
+
 Vlastní sadu lze načíst tlačítkem „Načíst JSON“. Podporované jsou kořenová pole i obálky s `questions`, `items`, `results`, `data` nebo `quiz`. Text otázky může být v `question`, `text`, `prompt` nebo `title`; možnosti v `options`, `choices`, `answers` nebo `variants`. Správné možnosti se určují podle `isCorrect: true` / `correct: true`, případně podle indexu nebo hodnoty odpovědi v běžných polích `correctIndex`, `answerIndex`, `correctAnswer`, `answer` a jejich variantách s podtržítkem.
 
 Témata lze zadat přímo v `section`, `category`, `topic`, `subject` nebo `group`. Pokud chybí, aplikace je odhadne podle obsahu otázky.
