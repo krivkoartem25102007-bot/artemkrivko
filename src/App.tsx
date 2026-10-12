@@ -209,11 +209,6 @@ function App() {
 
   return (
     <div className="app-shell">
-      <header className="topbar">
-        <button className="top-upload" onClick={() => fileInput.current?.click()}><span aria-hidden="true">＋</span> Načíst JSON</button>
-        <input ref={fileInput} className="visually-hidden" type="file" accept=".json,application/json" onChange={importFile} />
-      </header>
-
       <main id="top" className="layout">
         <aside className="sidebar">
           <button className={`nav-item ${activeSection === ALL_QUESTIONS_LABEL ? 'active' : ''}`} onClick={() => setActiveSection(ALL_QUESTIONS_LABEL)}>
@@ -236,9 +231,13 @@ function App() {
         <section className="content">
           <div className="page-heading">
             <h1>Procvičování otázek</h1>
-            <div className="progress-card" aria-label={`Správně ${correctCount} z ${questions.length} otázek`}>
-              <div className="progress-ring" style={{ '--progress': `${percentage}%` } as React.CSSProperties}><span>{percentage}<small>%</small></span></div>
-              <div><strong>Správně</strong><p>{correctCount} z {questions.length} otázek</p></div>
+            <div className="page-heading-actions">
+              <button className="top-upload" onClick={() => fileInput.current?.click()}><span aria-hidden="true">＋</span> Načíst JSON</button>
+              <input ref={fileInput} className="visually-hidden" type="file" accept=".json,application/json" onChange={importFile} />
+              <div className="progress-card" aria-label={`Správně ${correctCount} z ${questions.length} otázek`}>
+                <div className="progress-ring" style={{ '--progress': `${percentage}%` } as React.CSSProperties}><span>{percentage}<small>%</small></span></div>
+                <div><strong>Správně</strong><p>{correctCount} z {questions.length} otázek</p></div>
+              </div>
             </div>
           </div>
 
