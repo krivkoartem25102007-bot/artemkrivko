@@ -1,4 +1,4 @@
-# Uč se — procvičování otázek
+# Procvičování otázek
 
 Responzivní webová aplikace pro procvičování znalostí. Rozhraní je v češtině, odpovědi se vyhodnocují přímo u otázky a pokrok se ukládá v prohlížeči.
 

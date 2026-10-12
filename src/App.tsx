@@ -166,15 +166,12 @@ function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Uč se — domů"><span className="brand-mark">u</span><span>uč se<span className="brand-dot">.</span></span></a>
-        <div className="topbar-center"><span className="status-dot" /> VAŠE OSOBNÍ KNIHOVNA ZNALOSTÍ</div>
         <button className="top-upload" onClick={() => fileInput.current?.click()}><span aria-hidden="true">＋</span> Načíst JSON</button>
         <input ref={fileInput} className="visually-hidden" type="file" accept=".json,application/json" onChange={importFile} />
       </header>
 
       <main id="top" className="layout">
         <aside className="sidebar">
-          <div className="side-label">MOJE KNIHOVNA</div>
           <button className={`nav-item ${activeSection === ALL_QUESTIONS_LABEL ? 'active' : ''}`} onClick={() => setActiveSection(ALL_QUESTIONS_LABEL)}>
             <span className="nav-icon">▦</span><span>Všechny otázky</span><span className="nav-count">{questions.length}</span>
           </button>
@@ -188,31 +185,23 @@ function App() {
           </nav>
 
           <div className="sidebar-bottom">
-            <div className="streak-card">
-              <div className="streak-icon">✦</div>
-              <div><strong>Malé kroky</strong><p>každý den přináší velký pokrok</p></div>
-            </div>
             <button className="reset-button" onClick={resetProgress}>↺ <span>Vynulovat pokrok</span></button>
           </div>
         </aside>
 
         <section className="content">
           <div className="welcome-row">
-            <div>
-              <div className="eyebrow"><span className="eyebrow-line" /> PROSTOR PRO VÁŠ RŮST</div>
-              <h1>Učení může být <span>radost.</span></h1>
-              <p className="intro">Vaše tempo, vaše otázky, váš pokrok. Začněte jednou odpovědí.</p>
-            </div>
+            <h1>Procvičování otázek</h1>
             <div className="progress-card" aria-label={`Správně ${correctCount} z ${questions.length} otázek`}>
               <div className="progress-ring" style={{ '--progress': `${percentage}%` } as React.CSSProperties}><span>{percentage}<small>%</small></span></div>
-              <div><strong>Váš pokrok</strong><p>{correctCount} z {questions.length} správně</p></div>
+              <div><strong>Pokrok</strong><p>{correctCount} z {questions.length} správně</p></div>
             </div>
           </div>
 
           {notice && <div className="notice" role="status"><span>✦</span>{notice}<button onClick={() => setNotice('')} aria-label="Zavřít oznámení">×</button></div>}
 
           <div className="toolbar">
-            <div className="list-heading"><div><span className="eyebrow">VAŠE PROCVIČOVÁNÍ</span><h2>{activeSection === ALL_QUESTIONS_LABEL ? ALL_QUESTIONS_LABEL : activeSection}</h2></div><span className="question-total">{visibleQuestions.length} {questionWord(visibleQuestions.length)}</span></div>
+            <div className="list-heading"><h2>{activeSection === ALL_QUESTIONS_LABEL ? ALL_QUESTIONS_LABEL : activeSection}</h2><span className="question-total">{visibleQuestions.length} {questionWord(visibleQuestions.length)}</span></div>
             <label className="search-box"><span aria-hidden="true">⌕</span><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Hledat otázku…" aria-label="Hledat otázky" />{search && <button onClick={() => setSearch('')} aria-label="Vymazat hledání">×</button>}</label>
           </div>
 
@@ -235,12 +224,11 @@ function App() {
                       </button>
                     })}
                   </div>
-                  {isAnswered && <div className={`feedback ${correctResponse ? 'feedback-good' : 'feedback-try'}`}><span>{correctResponse ? '✦' : '↗'}</span>{correctResponse ? 'Výborně! Jen tak dál.' : 'Tentokrát to nevyšlo. Správné odpovědi jsou označeny zeleně.'}</div>}
+                  {isAnswered && <div className={`feedback ${correctResponse ? 'feedback-good' : 'feedback-try'}`}>{correctResponse ? 'Správně.' : 'Nesprávně. Správné odpovědi jsou označeny zeleně.'}</div>}
                 </article>
               })}
             </div>
           )}
-          <footer className="page-footer"><span>Vytvořeno pro klidné učení</span><span className="footer-sparkle">✳</span></footer>
         </section>
       </main>
     </div>
