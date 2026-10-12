@@ -15,6 +15,7 @@ type RawRecord = Record<string, unknown>
 const STORAGE_KEY = 'learnloop-quiz-data-v2'
 const PROGRESS_KEY = 'learnloop-quiz-progress-v2'
 const ALL_QUESTIONS_LABEL = 'Všechny otázky'
+const EXAM_QUESTION_COUNT = 50
 const bundledQuestions = normalizeQuestions(questionData)
 
 function readSavedQuestions(): Question[] {
@@ -149,7 +150,7 @@ function App() {
       shuffled[index] = shuffled[randomIndex]
       shuffled[randomIndex] = question
     }
-    const selectedQuestions = shuffled.slice(0, 50)
+    const selectedQuestions = shuffled.slice(0, EXAM_QUESTION_COUNT)
     if (selectedQuestions.length === 0) {
       setNotice('Nejprve načtěte otázky, abyste mohli spustit test.')
       return
@@ -232,6 +233,9 @@ function App() {
           <div className="page-heading">
             <h1>Procvičování otázek</h1>
             <div className="page-heading-actions">
+              <button className="exam-launch-button" onClick={startExam} disabled={questions.length === 0}>
+                <span aria-hidden="true">↗</span> Náhodný test · {Math.min(EXAM_QUESTION_COUNT, questions.length)} {questionWord(Math.min(EXAM_QUESTION_COUNT, questions.length))}
+              </button>
               <button className="top-upload" onClick={() => fileInput.current?.click()}><span aria-hidden="true">＋</span> Načíst JSON</button>
               <input ref={fileInput} className="visually-hidden" type="file" accept=".json,application/json" onChange={importFile} />
               <div className="progress-card" aria-label={`Správně ${correctCount} z ${questions.length} otázek`}>
@@ -259,8 +263,10 @@ function App() {
                   {incorrectQuestions.map((question, index) => <article className="exam-review-card" key={question.id}>
                     <div className="question-meta"><span className="question-number">CHYBA {String(index + 1).padStart(2, '0')}</span><span className="topic-chip">{question.section}</span></div>
                     <h4>{question.text}</h4>
+                    <p className="exam-review-label">Vaše odpověď</p>
+                    <ul className="exam-review-user-answers">{(examAnswers[question.id] ?? []).map((answer) => <li key={answer}><span>{String.fromCharCode(65 + answer)}</span>{question.options[answer]}</li>)}</ul>
                     <p className="exam-review-label">Správná odpověď{question.answers.length > 1 ? 'i' : ''}</p>
-                    <ul>{question.answers.map((answer) => <li key={answer}>{question.options[answer]}</li>)}</ul>
+                    <ul className="exam-review-correct-answers">{question.answers.map((answer) => <li key={answer}><span>{String.fromCharCode(65 + answer)}</span>{question.options[answer]}</li>)}</ul>
                   </article>)}
                 </div>
               </div> : <div className="exam-perfect"><span>✓</span> Všechny odpovědi správně.</div>}
@@ -283,13 +289,13 @@ function App() {
                 {question.answers.length > 1 && <p className="multi-hint">Vyberte {question.answers.length} správné odpovědi ({selected.length}/{question.answers.length})</p>}
                 <div className="answers-grid">
                   {question.options.map((option, optionIndex) => <button key={`${question.id}-${optionIndex}`} className={`answer-option ${selected.includes(optionIndex) ? 'selected' : ''}`} onClick={() => chooseExamAnswer(question, optionIndex)} aria-pressed={selected.includes(optionIndex)}>
-                    <span className="option-letter">{String.fromCharCode(65 + optionIndex)}</span><span className="option-text">{option}</span>
+                    <span className="option-letter">{String.fromCharCode(65 + optionIndex)}</span><span className="option-text">{option}</span>{selected.includes(optionIndex) && <span className="option-result">✓</span>}
                   </button>)}
                 </div>
               </article>
               <div className="exam-navigation">
                 <button className="exam-secondary-button" onClick={() => setExamIndex(examIndex - 1)} disabled={examIndex === 0}>← Předchozí</button>
-                <span>{selected.length === question.answers.length ? 'Odpověď zaznamenána' : `Vyberte ${question.answers.length} ${question.answers.length === 1 ? 'odpověď' : 'odpovědi'}`}</span>
+                <span role="status">{selected.length === question.answers.length ? 'Odpověď zaznamenána' : `Vyberte ${question.answers.length} ${question.answers.length === 1 ? 'odpověď' : 'odpovědi'}`}</span>
                 {examIndex < examQuestions.length - 1
                   ? <button className="exam-start-button" onClick={() => setExamIndex(examIndex + 1)} disabled={selected.length !== question.answers.length}>Další otázka <span aria-hidden="true">→</span></button>
                   : <button className="exam-start-button" onClick={endExam} disabled={selected.length !== question.answers.length}>Dokončit test <span aria-hidden="true">✓</span></button>}
