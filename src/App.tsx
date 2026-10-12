@@ -204,7 +204,7 @@ function App() {
 
   function resetProgress() {
     saveProgress({})
-    setNotice('Pokrok byl vynulován. Můžete začít znovu.')
+    setNotice('Pokrok byl vynulován.')
   }
 
   return (
@@ -234,15 +234,11 @@ function App() {
         </aside>
 
         <section className="content">
-          <div className="welcome-row">
-            <div>
-              <div className="eyebrow"><span className="eyebrow-line" /> PROSTOR PRO VÁŠ RŮST</div>
-              <h1>Učení může být <span>radost.</span></h1>
-              <p className="intro">Vaše tempo, vaše otázky, váš pokrok. Začněte jednou odpovědí.</p>
-            </div>
+          <div className="page-heading">
+            <h1>Procvičování otázek</h1>
             <div className="progress-card" aria-label={`Správně ${correctCount} z ${questions.length} otázek`}>
               <div className="progress-ring" style={{ '--progress': `${percentage}%` } as React.CSSProperties}><span>{percentage}<small>%</small></span></div>
-              <div><strong>Váš pokrok</strong><p>{correctCount} z {questions.length} správně</p></div>
+              <div><strong>Správně</strong><p>{correctCount} z {questions.length} otázek</p></div>
             </div>
           </div>
 
@@ -255,9 +251,9 @@ function App() {
             return <section className="exam-results" aria-labelledby="exam-result-title">
               <div className="exam-result-icon">{examPercentage >= 70 ? '✦' : '↗'}</div>
               <div className="eyebrow">TEST DOKONČEN</div>
-              <h2 id="exam-result-title">Výsledek je tady</h2>
+              <h2 id="exam-result-title">Výsledek testu</h2>
               <p className="exam-result-score">{examPercentage}<span>%</span></p>
-              <p className="exam-result-summary">Správně {examCorrectCount} z {examQuestions.length} {questionWord(examQuestions.length)}. {examPercentage >= 70 ? 'Skvělá práce!' : 'Každý test je příležitost posunout se dál.'}</p>
+              <p className="exam-result-summary">Správně {examCorrectCount} z {examQuestions.length} {questionWord(examQuestions.length)}.</p>
               {incorrectQuestions.length > 0 ? <div className="exam-review">
                 <h3>Otázky k zopakování <span>{incorrectQuestions.length}</span></h3>
                 <div className="exam-review-list">
@@ -268,7 +264,7 @@ function App() {
                     <ul>{question.answers.map((answer) => <li key={answer}>{question.options[answer]}</li>)}</ul>
                   </article>)}
                 </div>
-              </div> : <div className="exam-perfect"><span>✓</span> Bez jediné chyby — všechno správně!</div>}
+              </div> : <div className="exam-perfect"><span>✓</span> Všechny odpovědi správně.</div>}
               <div className="exam-actions"><button className="exam-start-button" onClick={startExam}>Zkusit nový test <span aria-hidden="true">↻</span></button><button className="exam-secondary-button" onClick={leaveExam}>Zpět k procvičování</button></div>
             </section>
           })() : (() => {
@@ -330,7 +326,7 @@ function App() {
               })}
             </div>
           )}
-          <footer className="page-footer"><span>Vytvořeno pro klidné učení</span><span className="footer-sparkle">✳</span></footer>
+          </>}
         </section>
       </main>
     </div>
