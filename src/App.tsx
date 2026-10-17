@@ -12,8 +12,8 @@ type Question = {
 
 type RawRecord = Record<string, unknown>
 
-const STORAGE_KEY = 'learnloop-quiz-data-v2'
-const PROGRESS_KEY = 'learnloop-quiz-progress-v2'
+const STORAGE_KEY = 'learnloop-quiz-data-v3'
+const PROGRESS_KEY = 'learnloop-quiz-progress-v3'
 const ALL_QUESTIONS_LABEL = 'Všechny otázky'
 const EXAM_QUESTION_COUNT = 50
 const bundledQuestions = normalizeQuestions(questionData)
@@ -48,6 +48,7 @@ function normalizeQuestions(input: unknown): Question[] {
     }
   }
   const rows = Array.isArray(source) ? source : asRecord(source) ? [source] : []
+  const usedIds = new Set<string>()
 
   return rows.flatMap((row, index) => {
     const item = asRecord(row)
@@ -88,7 +89,15 @@ function normalizeQuestions(input: unknown): Question[] {
     const explicitSection = stringValue(item.section ?? item.category ?? item.topic ?? item.subject ?? item.group)
     const haystack = `${text} ${optionLabels.join(' ')}`.toLocaleLowerCase()
     const section = explicitSection ?? inferSection(haystack)
-    return [{ id: stringValue(item.id ?? item._id) ?? `import-${index}-${text.slice(0, 24)}`, text, options: optionLabels, answers, section }]
+    const baseId = stringValue(item.id ?? item._id) ?? `import-${index}-${text.slice(0, 24)}`
+    let id = baseId
+    let duplicateIndex = 2
+    while (usedIds.has(id)) {
+      id = `${baseId}-${duplicateIndex}`
+      duplicateIndex += 1
+    }
+    usedIds.add(id)
+    return [{ id, text, options: optionLabels, answers, section }]
   })
 }
 
@@ -96,6 +105,13 @@ function inferSection(text: string): string {
   const topics: Array<[string, RegExp]> = [
     ['Normalizace a klíče', /(normal form|normaliz|normalis|functional dependency|transitive dependency|candidate uid|primary uid|secondary uid)/i],
     ['Čas a historie dat', /(historical data|history of|logging|journaling|time component|modeling time|modeling historical|date attribute|start date|end date)/i],
+    ['Transakce a zpracování změn', /(transaction|roll\s?back|savepoint|commit|lock|concurrency|deadlock)/i],
+    ['Správa databáze a oprávnění', /(privilege|\brole\b|\bgrant\b|\brevoke\b|\bdba\b|\bschema\b|flashback|backup|recover|audit)/i],
+    ['Regulární výrazy', /(regular expression|regexp)/i],
+    ['Objekty databáze', /(sequence|indexes?|\bviews?\b|synonym|pseudocolumn|materialized view)/i],
+    ['Omezení a datové typy', /(constraint|data ?type|varchar|number\s*\(|\bnull\b|column|primary key|foreign key|unique key)/i],
+    ['SQL dotazy a funkce', /(\bsql\b|\bselect\b|\binsert\b|\bupdate\b|\bdelete\b|\bmerge\b|\bjoin\b|\bwhere\b|query|subquer|\boperator\b|\bclause\b|\bgroup by\b|\border by\b|\brollup\b|\bintersect\b|\bunion\b|\bbetween\b|\blike\b|\bconcat|\barithmetic\b|precedence|sort order|top-n|hierarchical quer|nonequijoin|date format|function|expression|comparison|logical operator|wildcard|escape|duplicate rows|statement|syntax)/i],
+    ['Testování a kvalita', /(testing|unit test|test data|test case|production)/i],
     ['Fyzický model a SQL', /(physical (data )?model|foreign key|primary key|column integrity|entity integrity|referential integrity|user-defined integrity|intersection table|oracle database|sql |sql\b|relational database)/i],
     ['Pokročilé vztahy a omezení', /(supertype|subtype|recursive relationship|hierarchical relationship|\barc\b|exclusive or|exclusivity|constraint type|business rule)/i],
     ['Vztahy mezi entitami', /(relationship|cardinality|optionality|transferable|one-to-one|one to one|one-to-many|one to many|many-to-many|many to many|m:m|redundant relationship|intersection entit)/i],

@@ -20,7 +20,7 @@ Při každém dalším odeslání změn do větve `main` nebo `master` se web au
 
 ## Otázky
 
-Přiložená databáze 260 otázek je součástí aplikace a zobrazí se automaticky. Otázky zůstávají v původním anglickém znění; navigace a ovládání jsou česky. Aplikace je rozdělí do tematických částí, například základy ER modelování, vztahy mezi entitami, normalizace a klíče, fyzický model a SQL nebo čas a historie dat.
+Nová databáze s 860 otázkami je jedinou sadou otázek v aplikaci a automaticky nahrazuje původní otázky. Otázky zůstávají v původním anglickém znění, navigace a ovládání jsou česky. Aplikace je rozdělí do tematických částí, například SQL dotazy a funkce, omezení a datové typy, transakce, objekty databáze nebo správa databáze a oprávnění.
 
 Otázky s více správnými odpověďmi (například „Choose Two“) lze vyřešit výběrem požadovaného počtu možností. Poté se správné odpovědi zvýrazní zeleně.
 
